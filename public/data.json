@@ -1,0 +1,49 @@
+[
+    {
+        "users":[
+            {
+                "tag":"Folk",
+                "name":"Benny Dayal",
+                "img":"./images/Img1.png"
+            },
+            {
+                "tag":"Bollywood",
+                "name":"Vijay Yesudas",
+                "img":"./images/Img2.png"
+            },
+            {
+                "tag":"Folk",
+                "name":"Andrea Jeremiah",
+                "img":"./images/Img3.png"
+            },
+            {
+                "tag":"Folk",
+                "name":"Shilpa Rao",
+                "img":"./images/Img4.png"
+            }
+        ],
+        "reviews":[
+            {
+                "name":"Hellen Jummy",
+                "userimg":"./images/review-user-1.png",
+                "location":"Palo Alto, CA",
+                "flag":"./images/flag1.png",
+                "review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing."
+            },
+            {
+                "name":"Isaac Oluwatemilorun",
+                "userimg":"./images/review-user-2.png",
+                "location":"Palo Alto, CA",
+                "flag":"./images/flag2.png",
+                "review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing."
+            },
+            {
+                "name":"Hellen Jummy",
+                "userimg":"./images/review-user-3.png",
+                "location":"Palo Alto, CA",
+                "flag":"./images/flag1.png",
+                "review":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing."
+            }
+        ]
+    }
+]

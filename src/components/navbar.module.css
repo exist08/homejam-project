@@ -1,0 +1,105 @@
+header {
+    width: 100%;
+    height: 10vh;
+}
+header nav {
+    padding: 0 0rem;
+    margin: auto;
+    width: 1100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    color: #FAFAFA;
+    font-family: 'Open Sans';
+    font-size: .8em;
+    transition: .5s;
+}
+header nav ul li{
+    transition: .5s;
+}
+header nav ul li:hover{
+    color: rgb(70, 70, 233);
+    cursor: pointer;
+}
+.logo{
+    background: url(../../images/logo.png);
+    width: 86px;
+    height: 44px;
+}
+.list{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    margin: 0 .5em;
+    display: block;
+    width: 13px;
+    height: 15px;
+    background-image: url(../../images/search.png);
+    background-repeat: no-repeat;
+}
+.searchIcon:hover{
+    color: rgb(70, 70, 233);
+    cursor: pointer;
+}
+.cart{
+    background-image: url(../../images/Basket.png);
+    background-position: center;
+    width: 13px;
+    height: 15px;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width:1100px) {
+    header nav{
+        width: 100%;
+        padding: 0 1rem;
+    } 
+    .list{
+        width: 150px;
+    }
+    .search{
+        display: block;
+        justify-content: flex-end;
+        align-items: center;
+        width: 26px;
+        height: 16px;
+        overflow: hidden;
+    }
+    .searchIcon{
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-image: url(../../images/search.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hideinmob{
+        display: none;
+    }
+    .menu{
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-image: url(../../images/hamburger.png);
+        background-position: center;
+    }
+    .menu:hover,
+    .cart:hover,
+    .search:hover{
+        background-color: blue;
+        background-blend-mode: difference;
+        background-clip: content-box;
+    }
+}

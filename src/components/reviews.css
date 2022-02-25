@@ -1,0 +1,70 @@
+.review-card {
+  min-width: 360px;
+  min-height: 248px;
+  background: #0a0b1a;
+  border: 2px solid #e5af56;
+  border-radius: 16px;
+  position: relative;
+  padding: 2em 1.5em;
+}
+@media screen and (max-width:1100px) {
+  .review-card{
+    margin: 0 1rem;
+  }
+}
+.review-card::before {
+  content: '';
+  top: -8px;
+  left: 8px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(143.63deg, #276c73 5.43%, #5293e8 110.6%);
+  border-radius: inherit;
+  position: absolute;
+  z-index: -1;
+}
+.review-card {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.review-card .headerBox,
+.review-card .contentBox {
+  width: 100%;
+}
+.review-card .headerBox {
+  height: 35%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.review-card .headerBox>img{
+  padding-right: .5em;
+}
+.review-card .headerBox .name-n-desig {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+}
+.review-card .headerBox .name-n-desig .name {
+  font-size: 1em;
+  width: 200px;
+  font-family: 'Quattrocento';
+}
+.review-card .headerBox .name-n-desig .flag-addr {
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #e5c558;
+}
+.review-card .contentBox {
+  font-size: 1.15em;
+}
